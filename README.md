@@ -1,6 +1,6 @@
 # Google Software Product Sprint
 
-This repo contains Truc Duong's portfolio and SPS projects
+This repo contains Truc Duong's portfolio and SPS projects.
 
 To get started:
 
