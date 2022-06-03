@@ -1,9 +1,23 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-#greeting-container {
-  margin-top: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+img, svg {
+    width: 100%;
+}
+
+
