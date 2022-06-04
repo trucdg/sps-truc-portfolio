@@ -20,4 +20,115 @@ img, svg {
     width: 100%;
 }
 
+/* header container */
 
+.header-outer {
+    background: no-repeat center linear-gradient(135deg, #F5D9DF 60%, white);
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Navbar */
+
+#mainNavbar {
+    background-color: #EC698F;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-size: 2 em;
+    transition: all 0.35s;
+}
+
+.navbar-brand:hover {
+    color: #B9375E;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #F5D9DF;
+    font-weight: 700;
+    font-size: 1 rem;
+}
+
+.nav-link:hover {
+    color: #B9375E;
+}
+
+/* Social header */
+
+.social-item {
+    display: inline-block;
+}
+
+.social-item img {
+    padding: 1rem;
+    width: 70px;
+    transition: all 0.2s;
+}
+
+.social-item img:hover {
+    background-color: white 70%;
+    border-radius: 50%;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+}
+
+
+/* Hero */
+
+.hero-left h1 {
+    color: #C25575;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+.hero-left h2 {
+    color: #8A6F85;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: right;
+}
+
+
+.btn-resume {
+    background-color: #EC698F;
+    border-radius: 2em;
+    display: inline-block;
+    padding: 0.7em 2em;
+    border: none;
+    margin: 1em auto 2em;
+    transition: all 0.2s;
+}
+
+.btn-resume:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #390235;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.btn-link:hover {
+    color: #B9375E;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .header-outer {
+        background: linear-gradient(#f4c7d1, white);
+    }
+
+}
