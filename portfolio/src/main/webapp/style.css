@@ -42,7 +42,7 @@ img, svg {
 .navbar-brand {
     color: white;
     font-weight: bolder;
-    font-size: 2 em;
+    font-size: 2em;
     transition: all 0.35s;
 }
 
@@ -54,7 +54,7 @@ img, svg {
 .nav-link {
     color: #F5D9DF;
     font-weight: 700;
-    font-size: 1 rem;
+    font-size: 1.5rem;
 }
 
 .nav-link:hover {
