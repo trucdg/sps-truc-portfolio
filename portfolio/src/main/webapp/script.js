@@ -38,6 +38,29 @@ async function showServerText(){
     const textFromResponse = await responseFromServer.text();
 
     const textContainer = document.getElementById('text-container');
-    dateContainer.innerText = textFromResponse;
+    textContainer.innerText = textFromResponse;
 
 }
+
+/**
+ * Fetches the JSON String from the QuoteServlet and adds it to the page
+ */
+
+async function showQuote(){
+     
+    //send a request to /quotes
+    const responseFromServer = await fetch('/quotes');
+
+    //parse the response as JSON.
+    const myQuotes = await responseFromServer.json();
+
+    const quoteContainer = document.getElementById('quote-container');
+
+    console.log(myQuotes);
+ 
+    const quote = myQuotes[Math.floor(Math.random()*myQuotes.length)];
+
+    quoteContainer.innerText = quote;
+
+
+ }
