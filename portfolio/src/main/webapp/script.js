@@ -26,3 +26,41 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+
+/**
+ * Fetches the text from the HelloWorldServlet and adds it to the page
+ */
+
+async function showServerText(){
+
+    const responseFromServer = await fetch('/hello');
+    const textFromResponse = await responseFromServer.text();
+
+    const textContainer = document.getElementById('text-container');
+    textContainer.innerText = textFromResponse;
+
+}
+
+/**
+ * Fetches the JSON String from the QuoteServlet and adds it to the page
+ */
+
+async function showQuote(){
+     
+    //send a request to /quotes
+    const responseFromServer = await fetch('/quotes');
+
+    //parse the response as JSON.
+    const myQuotes = await responseFromServer.json();
+
+    const quoteContainer = document.getElementById('quote-container');
+
+    console.log(myQuotes);
+ 
+    const quote = myQuotes[Math.floor(Math.random()*myQuotes.length)];
+
+    quoteContainer.innerText = quote;
+
+
+ }

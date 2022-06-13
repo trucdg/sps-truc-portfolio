@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Truc Duong Portfolio</title>
     
-    <script src="script.js"></script>
+    
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 
@@ -13,9 +13,14 @@
 
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
   </head>
   <body>
-
+    
+    <!-- Header -->
     <div class="container-fluid justify-content-center header-outer py-0 m-0">
 
         <div class="row align-items-center">
@@ -52,6 +57,8 @@
 
                             </ul>
                         </div>
+
+                        <!-- Social Headers -->
 
                         <div class="social-header-container d-none d-md-inline-block">
                             <ul class="social-header">
@@ -96,7 +103,7 @@
 
     </div>
 
-
+    <!-- Featured Project -->
     <section class=featured>
         <div class="featured-left">
             <div class="inner-left">
@@ -114,6 +121,8 @@
 
     </section>
 
+
+    <!-- Skills Section -->
     <section class="skills">
         <div class="skills-container">
             <ul>
@@ -142,7 +151,6 @@
                         <img src="img/work-icon.svg" alt="work icon">
                         <p class="skills-title">Work Experience</p>
                         <p class="skills-subtitle">D&H CPA, MA</p>
-                        <p class="skills-desc">Candidate for B.S in Computer Science</p>
                         <p class="skills-desc">Junior Accountant</p>
                     </div>
                 </li>
@@ -151,11 +159,55 @@
 
     </section>
 
+    <!-- Call-to-action Section -->
     <section class="call-to-action">
         <p>Can't wait to work with you!</p>
         <button class="btn">
             <a href="https://www.linkedin.com/in/trucduong0301/">Let's Connect!!</a>
         </button>
+    </section>
+
+    <!-- SPS MVP -->
+
+    <!-- Servlet -->
+    <section class="sps-week2">
+
+        <div class="week2-container">
+            <div class="hello-world-servlet">            
+                <h1>Week2 - Intro to Servlets</h1>
+                <button class="btn" onclick="showServerText();">    
+                    👋 Hello from the server 👋
+                </button>
+
+                <p id="text-container"></p>
+                <p>Click <a href="/hello">here</a> to see the server response directly.</p>
+
+             </div>
+        
+        <div class="page-view-servlet">
+
+            <button class="btn">
+                <a href="/page-views">Page View Counter</a>
+            </button>
+
+        </div>
+
+        <div class="json">
+            
+            <button class="btn" onclick="showQuote();">
+                💕 Chicken Soup for the Soul 💕
+            </button>
+            
+            <p id="quote-container"></p>
+            <p>Click <a href="/quotes">here</a> to see the server response directly.</p>
+
+
+        </div>
+        
+
+        
+    </div>
+
     </section>
 
     
