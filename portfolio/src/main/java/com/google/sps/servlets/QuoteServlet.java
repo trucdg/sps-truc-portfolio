@@ -22,8 +22,8 @@ public class QuoteServlet extends HttpServlet {
     ArrayList<String> quotes = new ArrayList<String>();
 
     quotes.add("Life is a dance. You learn as you go. Sometimes you lead, sometimes you follow.");
-    quotes.add("Everyone you meet is fighting a battle you know nothing about. Bekind. Always!");
-    quotes.add("The best view comes after the hardest clim!");
+    quotes.add("Everyone you meet is fighting a battle you know nothing about. Be kind. Always!");
+    quotes.add("The best view comes after the hardest climb!");
     quotes.add("Tough times never last, but tough people do!");
 
 
