@@ -38,7 +38,7 @@ async function showServerText(){
     const textFromResponse = await responseFromServer.text();
 
     const textContainer = document.getElementById('text-container');
-    textContainer.innerText = textFromResponse;
+    textContainer.innerHTML = textFromResponse;
 
 }
 
