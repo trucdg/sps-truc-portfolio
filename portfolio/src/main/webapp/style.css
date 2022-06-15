@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@400;500;800&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
 
 body {
     height: 100vh;
@@ -106,7 +107,7 @@ img, svg {
     transition: all 0.2s;
 }
 
-.btn-resume:hover {
+.btn:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #390235;
     transform: translateY(-0.3em);
     cursor: pointer;
@@ -240,6 +241,19 @@ section {
 
 }
 
+#json-btn {
+    background-color: #ec698e91;
+    border: none;
+    transition: all 0.2s;
+
+}
+
+#quote-container{
+    font-family: 'Parisienne', 'Raleway', sans-serif ;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
 
 
 
@@ -278,5 +292,7 @@ section {
         grid-gap: 1em;
         place-content: center;
     }
+
+    
 
 }
