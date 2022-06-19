@@ -64,3 +64,24 @@ async function showQuote(){
 
 
  }
+
+
+//  Initialize and add the map
+function initMap(){
+    //Boston University Location
+    const BU = {lat:42.350353, lng: -71.105158};
+
+    const map = new google.maps.Map( document.getElementById('map'), {
+        zoom: 4,
+        center: BU,
+    });
+
+    const marker = new google.maps.Marker({
+        position: BU,
+        map: map
+    });
+
+    window.initMap = initMap;
+
+
+}

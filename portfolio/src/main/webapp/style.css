@@ -254,6 +254,11 @@ section {
     font-size: 1.2em;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 
 
 
